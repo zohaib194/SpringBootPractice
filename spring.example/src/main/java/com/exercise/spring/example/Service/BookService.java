@@ -37,17 +37,18 @@ public class BookService {
         return bookDAO.findByName(name);
     }
 
-    public Book updateBook(Book book) {
-        Book oldBook = null;
-        try {
-            oldBook = bookDAO.getOne(book.getID());
-            oldBook.setISBN(book.getISBN());
-            oldBook.setName(book.getName());
-            oldBook.setPrice(book.getPrice());
-        } catch (EntityNotFoundException e){
-            logger.error("Something went wrong", e.getMessage());
+    public Book updateBook(Book book, int bookID) {
+        Optional<Book> oldBook = bookDAO.findById(bookID);
+
+        if(!oldBook.isPresent()) {
+            logger.error("Book with given ID not found!");
+            return null;
         }
-        return oldBook;
+        oldBook.get().setISBN(book.getISBN());
+        oldBook.get().setName(book.getName());
+        oldBook.get().setPrice(book.getPrice());
+        bookDAO.save(oldBook.get());
+        return oldBook.get();
     }
 
     public void deleteBook(int ID) {

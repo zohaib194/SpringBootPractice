@@ -8,6 +8,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
 import java.util.List;
 
 @RestController
@@ -41,10 +42,12 @@ public class BookController {
         return new ResponseEntity<>(bookService.saveBook(book), HttpStatus.CREATED);
     }
 
-    @PutMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @PutMapping(value = "/{bookID}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public ResponseEntity<Book> updateBook(@RequestBody Book book) {
-        return new ResponseEntity<>(bookService.updateBook(book), HttpStatus.OK);
+    public ResponseEntity<Book> updateBook(@RequestBody Book book, @PathVariable int bookID) {
+        Book updatedBook = bookService.saveBook(book);
+        if(!updatedBook)
+        return new ResponseEntity<>(bookService.updateBook(book, bookID), HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/{bookID}", produces = MediaType.APPLICATION_JSON_VALUE)

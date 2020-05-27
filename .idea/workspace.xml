@@ -20,20 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb5eb304-34b8-4535-b89e-b7650fdfc7f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_8_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring.example/src/main/java/com/exercise/spring/example/Config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring.example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring.example/src/main/java/com/exercise/spring/example/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring.example/src/main/java/com/exercise/spring/example/Controller/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.example/src/main/java/com/exercise/spring/example/Service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring.example/src/main/java/com/exercise/spring/example/Service/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,38 +127,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1061" y="410" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1590436321378" />
-    <state width="1002" height="399" key="GridCell.Tab.0.bottom" timestamp="1590522292134">
+    <state width="1235" height="399" key="GridCell.Tab.0.bottom" timestamp="1590592781254">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1002" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590522292134" />
-    <state width="1002" height="399" key="GridCell.Tab.0.center" timestamp="1590522292134">
+    <state width="1235" height="399" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590592781254" />
+    <state width="1235" height="399" key="GridCell.Tab.0.center" timestamp="1590592781254">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1002" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590522292134" />
-    <state width="1002" height="399" key="GridCell.Tab.0.left" timestamp="1590522292133">
+    <state width="1235" height="399" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590592781254" />
+    <state width="1235" height="399" key="GridCell.Tab.0.left" timestamp="1590592781254">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1002" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590522292133" />
-    <state width="1002" height="399" key="GridCell.Tab.0.right" timestamp="1590522292134">
+    <state width="1235" height="399" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590592781254" />
+    <state width="1235" height="399" key="GridCell.Tab.0.right" timestamp="1590592781254">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1002" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590522292134" />
-    <state width="617" height="492" key="GridCell.Tab.1.bottom" timestamp="1590522239976">
+    <state width="1235" height="399" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590592781254" />
+    <state width="617" height="492" key="GridCell.Tab.1.bottom" timestamp="1590526760805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590522239976" />
-    <state width="617" height="492" key="GridCell.Tab.1.center" timestamp="1590522239976">
+    <state width="617" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1590526760805" />
+    <state width="617" height="492" key="GridCell.Tab.1.center" timestamp="1590526760805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590522239976" />
-    <state width="617" height="492" key="GridCell.Tab.1.left" timestamp="1590522239976">
+    <state width="617" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1590526760805" />
+    <state width="617" height="492" key="GridCell.Tab.1.left" timestamp="1590526760805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590522239976" />
-    <state width="617" height="492" key="GridCell.Tab.1.right" timestamp="1590522239976">
+    <state width="617" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1590526760805" />
+    <state width="617" height="492" key="GridCell.Tab.1.right" timestamp="1590526760805">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="617" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590522239976" />
+    <state width="617" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1590526760805" />
     <state x="811" y="356" key="Maven.ArtifactSearchDialog" timestamp="1590518269394">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
